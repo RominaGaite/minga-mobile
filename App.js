@@ -2,7 +2,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import BottomTabsNavigation from "./src/navigation/BottonTabsNavigation";
 import { Provider } from "react-redux";
 
-import { store } from './store/store.js'
+import {store} from "./src/Store/store.js"
 
 export default function App() {
   return (
