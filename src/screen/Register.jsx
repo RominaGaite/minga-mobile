@@ -49,7 +49,7 @@ export default function RegisterScreen() {
                  <TextInput style={{height:80,color:'rgb(255, 255, 255)',fontSize:20}} placeholder="Photo"placeholderTextColor="white"  value={photo} onChangeText={handlePhotoChange}
                 />
                <TouchableOpacity  title="Register"  onPress={handleRegister} style={{ backgroundColor: 'gray', borderRadius: 10, padding: 10, height:50,}}  >
-                <Text style={{ marginLeft:100, width: 150, fontSize: 20, height: 50, color: 'rgb(245, 118, 184)' }}>LOGIN</Text>
+                <Text style={{ marginLeft:100, width: 150, fontSize: 20, height: 50, color: 'rgb(245, 118, 184)' }}>REGISTER</Text>
                 </TouchableOpacity>
                 </View>
             </View>
